@@ -39,11 +39,12 @@ function deploy {
 
 	cd _site
 	git config --global user.name "CaDiL"
-    git config --global user.email "kkhoschuluu@gmail.com"
+    git config --global user.email kkhoschuluu@gmail.com
 	git add -A
 	git status
 	git commit -m "Lastest site built on successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to github"
 	git push $DEPLOY_REPO build:build
 }
+
 
 main
