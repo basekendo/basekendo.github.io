@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://basekendo.github.io//sitemap.xml
